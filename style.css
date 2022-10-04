@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(https://img.freepik.com/premium-photo/cat-faces-peek-out-from-blanket-cute-funny-kittens-couple-family-cats-portrait-white-surface-cats-watch-side-long-web-banner-with-copy-space_221542-1303.jpg?w=2000);
+    background-position: 50%;
+    height: 60vh;
+    width: 100vw;
+    border-bottom: 3px dashed black;
+}
+.header__maintitle{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+.header__paragraph{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.header__navbar{
+    height: 6vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.header__navbar__button{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.header__navbar__button:hover{
+    background-color: beige;
+    color: black;
+}
